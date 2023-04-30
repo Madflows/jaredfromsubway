@@ -6,7 +6,7 @@ function NavBar() {
     <nav className='p-8 md:py-4 lg:px-16 w-full bg-white fixed top-0'>
       <div className='w-full flex items-center justify-between'>
         <Link href={'/'}>JaredFromSubway</Link>
-        <ul className='flex items-center gap-3'>
+        <ul className='md:flex items-center gap-3 hidden'>
           <li>
             <Link href={"/"}>Home</Link>
           </li>
