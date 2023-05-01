@@ -10,15 +10,18 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className={`${inter.className} relative`}>
+    <>
+    <title>Home - JaredFromSubway</title>
+    <div className={`${inter.className} relative bg-[#304F55]`}>
       <NavBar />
-      <div className='flex min-h-screen pt-[calc(100vh)-200px] flex-col items-center justify-between bg-[url(/assets/hero-bg.avif)] bg-no-repeat bg-cover relative'>
-        <span className='absolute inset-0 bg-white/20' />
+      <div className='flex min-h-screen pt-[calc(100vh)-200px] flex-col items-center justify-between bg-[url(/assets/desktop-bg.png)] bg-no-repeat bg-cover relative'>
+      
         <Hero />
       </div>
       <About />
       <Tokenomics />
       <Footer />
     </div>
+    </>
   );
 }

@@ -15,9 +15,14 @@ module.exports = {
       },
       colors: {
         primary: '#283436',
+        lightGreen: '#00ff66',
         sky: colors.sky,
         teal: colors.teal,
         rose: colors.rose,
+      },
+      boxShadow: {
+        accent: '10px 10px 0px 0px #00FF66',
+        button: '5px 5px 0px 0px #ffffff',
       },
     },
   },

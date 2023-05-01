@@ -3,32 +3,16 @@ import React from 'react'
 
 function Hero() {
   return (
-    <section className='overflow-hidden bg-transparent relative  sm:grid pt-[10vh] md:pt-[20vh] sm:grid-cols-2'>
-      <div className='p-8 md:p-12 lg:px-16 lg:py-24  flex items-center'>
-        <div className='mx-auto max-w-xl text-left'>
-          <h2 className='text-2xl font-bold text-gray-900  md:text-3xl lg:text-5xl'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit
-          </h2>
-          <p className=' text-gray-700 mt-4 '>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
-            tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim
-            et fermentum, augue. Aliquet amet volutpat quisque ut interdum
-            tincidunt duis.
-          </p>
-          <div className='mt-4 md:mt-8'>
-            <Link
-              href='#'
-              className='inline-block rounded bg-primary/90 px-12 py-3 text-sm font-medium text-white transition hover:bg-primary focus:outline-none focus:ring focus:ring-yellow-400'
-            >
-              Join Telegram
-            </Link>
-          </div>
-        </div>
+    <section id='home' className='overflow-hidden bg-transparent relative  flex flex-col items-center gap-8 pt-[10vh] md:pt-[20vh]  w-full'>
+      <div className='flex flex-col items-center justify-center pt-14'>
+        <h2 className='text-5xl md:text-[82px] leading-[100%] w-[90vw] max-w-7xl uppercase text-white font-black text-center '>
+          Maximize your Defi Potential <span className='text-lightGreen'>with MEV Bot</span>
+        </h2>
       </div>
       <div className='flex items-center justify-center'>
         <img
           alt='Student'
-          src='https://pbs.twimg.com/media/Fua6YvLWIAIik9k?format=png&name=small'
+          src='/assets/logo.png'
           className='min-h-56 w-[90vw] max-w-sm rounded-md object-cover sm:h-full'
         />
       </div>
