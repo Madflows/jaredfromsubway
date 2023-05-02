@@ -1,5 +1,7 @@
 import Link from 'next/link'
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react';
+import { toast } from 'react-hot-toast';
+import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 
 function NavBar() {
     const navRef = useRef(null);
@@ -35,8 +37,12 @@ function NavBar() {
             <Link href={"#tokenomics"}>Features</Link>
           </li>
         </ul>
-        <button className='py-4 px-8 rounded-sm text-sm bg-lightGreen shadow-button text-white font-bold'>
+        <button className='py-4 px-8 rounded-sm text-sm bg-lightGreen shadow-button hidden md:flex text-black font-bold'>
           Buy JaredFromSubway
+        </button>
+
+        <button onClick={() => toast.success('Soon :)')} className='flex md:hidden p-3 bg-black text-white rounded-sm'>
+          <HiOutlineMenuAlt4 className='text-xl' />
         </button>
       </div>
     </nav>

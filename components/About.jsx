@@ -22,7 +22,7 @@ function About() {
             MEV, JaredFromSubway is the Key to unlocking the full power od decentralized
             finance (Defi)
           </p>
-          <button className='py-4 px-8 rounded-sm w-fit text-sm bg-lightGreen shadow-button text-white font-bold'>
+          <button className='py-4 px-8 rounded-sm w-fit text-sm bg-lightGreen shadow-button text-black font-bold'>
             Buy JaredFromSubway Coin
           </button>
         </div>
