@@ -11,14 +11,14 @@ import BenefitCard from './BenefitCard';
 const actions = [
   {
     title: 'Increased Earnings Potential',
-    body: 'MEV Bot provides an automated and optimized solution for extracting this value',
+    body: 'JaredFromSubway provides an automated and optimized solution for extracting this value',
     icon: '/assets/wallet.svg',
     iconForeground: 'text-purple-700',
     iconBackground: 'bg-purple-50',
   },
   {
     title: 'Efficiency and Automation',
-    body: 'MEV Bot provides an efficient and automated solution for executing transactions on the Ethereum blockchain.',
+    body: 'JaredFromSubway provides an efficient and automated solution for executing transactions on the Ethereum blockchain.',
     icon: '/assets/bank.svg',
     iconForeground: 'text-sky-700',
     iconBackground: 'bg-sky-50',
@@ -43,7 +43,7 @@ export default function Tokenomics() {
       className='py-12 px-6 md:px-16 lg:px-24 flex flex-col gap-8 md:gap-12'
     >
       <h2 className='text-center text-2xl md:text-5xl font-bold text-white'>
-        Benefit of Using MEV Bot
+        Benefit of Using JaredFromSubway
       </h2>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
         {actions.map((action, actionIdx) => (

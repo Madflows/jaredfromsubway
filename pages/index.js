@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <>
     <title>Home - JaredFromSubway</title>
-    <div className={`${inter.className} relative bg-[#304F55]`}>
+    <div className={`${inter.className} relative bg-[#E38B39]`}>
       <NavBar />
-      <div className='flex min-h-screen pt-[calc(100vh)-200px] flex-col items-center justify-between bg-[url(/assets/desktop-bg.png)] bg-no-repeat bg-cover relative'>
+      <div className='flex min-h-screen pt-[calc(100vh)-200px] flex-col items-center justify-between bg-[url(/assets/desktop-bg.png)] bg-no-repeat bg-cover bg-center relative'>
       
         <Hero />
       </div>
