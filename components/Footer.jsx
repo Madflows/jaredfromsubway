@@ -10,12 +10,14 @@ function Footer() {
       <div className='flex items-center gap-4'>
         <Link
           href={'https://twitter.com/Jarederc20'}
+          target='_blank'
           className='text-lg md:text-2xl w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem] rounded-md bg-lightGreen shadow-button text-white flex items-center justify-center'
         >
           <GrTwitter />
         </Link>
         <Link
           href={'https://t.me/Jaredfromsubwayportal'}
+          target='_blank'
           className='text-lg md:text-2xl w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem] rounded-md bg-lightGreen shadow-button text-white flex items-center justify-center'
         >
           <BsTelegram />
