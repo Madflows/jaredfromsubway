@@ -10,26 +10,20 @@ import BenefitCard from './BenefitCard';
 
 const actions = [
   {
-    title: 'Increased Earnings Potential',
-    body: 'JaredFromSubway provides an automated and optimized solution for extracting this value',
+    title: '0% tax',
+    body: "No tax for Jared holders! We won't make you pay for Jared's sins. Hold tight and enjoy the ride, just like a Subway sandwich.",
     icon: '/assets/wallet.svg',
     iconForeground: 'text-purple-700',
     iconBackground: 'bg-purple-50',
   },
   {
-    title: 'Efficiency and Automation',
-    body: 'JaredFromSubway provides an efficient and automated solution for executing transactions on the Ethereum blockchain.',
+    title: '100000 supply',
+    body: "Yo, listen up, boys and girls! JaredFromSubway has only got 100,000 tokens to his name, so you better move fast if you want a piece of that sandwich. We're talking limited supply here, like a Subway store running out of cookies before you can get your grubby little paws on them. So don't be a Jared and miss out on this opportunity - grab your tokens no",
     icon: '/assets/bank.svg',
     iconForeground: 'text-sky-700',
     iconBackground: 'bg-sky-50',
   },
-  {
-    title: 'Fair and Transparent Mechanism',
-    body: "By leveraging the bot's automated solution, users can avoid the potential for miner manipulation and other unfair practices.",
-    icon: '/assets/briefcase.svg',
-    iconForeground: 'text-yellow-700',
-    iconBackground: 'bg-yellow-50',
-  },
+  
 ];
 
 function classNames(...classes) {
@@ -45,7 +39,7 @@ export default function Tokenomics() {
       <h2 className='text-center text-2xl md:text-5xl font-bold text-white'>
         Benefit of Using JaredFromSubway
       </h2>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+      <div className='grid grid-cols-1 md:grid-cols-2  gap-4'>
         {actions.map((action, actionIdx) => (
           <BenefitCard action={action} key={actionIdx} />
         ))}
