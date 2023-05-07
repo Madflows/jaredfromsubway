@@ -8,7 +8,7 @@ function Hero() {
       className="overflow-hidden bg-transparent relative  flex flex-col items-center gap-8 pt-[10vh] md:pt-[20vh]  w-full"
     >
       <div className="flex flex-col items-center justify-center pt-14">
-        <h2 className="text-5xl md:text-[82px] leading-[100%] w-[90vw] max-w-7xl uppercase text-white font-black text-center ">
+        <h2 className="text-4xl md:text-[82px] leading-[100%] w-[90vw] max-w-7xl uppercase text-white font-black text-center ">
           <span className="text-lightGreen">JaredFromSubway</span>
         </h2>
       </div>
