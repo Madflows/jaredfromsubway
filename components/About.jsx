@@ -15,7 +15,7 @@ function About() {
             JaredFromSubway
           </h2>
           <p className='text-lg text-white max-w-lg'>
-            JaredFromSubway was a low-transaction-fee token on Ethereum that
+            JaredFromSubway is a 0% Tax token on Ethereum that
             gained notoriety due to its association with the infamous Subway
             spokesman turned convicted criminal, Jared Fogle. Despite its basic
             functionality, the token became associated with the dark side of the

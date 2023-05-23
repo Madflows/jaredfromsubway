@@ -37,7 +37,7 @@ export default function Tokenomics() {
       className='py-12 px-6 md:px-16 lg:px-24 flex flex-col gap-8 md:gap-12'
     >
       <h2 className='text-center text-2xl md:text-5xl font-bold text-white'>
-        Benefit of Using JaredFromSubway
+        Tokenomics
       </h2>
       <div className='grid grid-cols-1 md:grid-cols-2  gap-4'>
         {actions.map((action, actionIdx) => (
